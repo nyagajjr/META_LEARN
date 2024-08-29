@@ -18,3 +18,9 @@ with open('C:/Users/nyaga/OneDrive/Desktop/Good Reads/Software_Development/META/
 with open('C:/Users/nyaga/OneDrive/Desktop/Good Reads/Software_Development/META/htmlcss/python/file_handling/created.txt', 'w') as file:
     file.writelines('\nHello there. I have been created')
     
+    
+    
+with open('C:/Users/nyaga/OneDrive/Desktop/Good Reads/Software_Development/META/htmlcss/python/file_handling/dogs_names.txt', 'r') as file:
+    data = file.read()
+    print(data.split('\n'))
+    

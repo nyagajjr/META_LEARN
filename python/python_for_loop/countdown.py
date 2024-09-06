@@ -1,5 +1,4 @@
 # Count Down from 10 to 1
-
 # Write a program to print numbers from 10 to 1 using a for loop.
 
 def count_down(n):

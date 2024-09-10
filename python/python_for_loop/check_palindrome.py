@@ -5,9 +5,11 @@ def isPalindrome(str):
     for char in str:
         if startIndex != endIndex:
             return False
+        
     return True
 
-print(isPalindrome('racecar'))
+print(isPalindrome('racecars'))
+print(isPalindrome('saippuakivikauppias'))
 
     
     # OR

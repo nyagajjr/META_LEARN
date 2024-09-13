@@ -9,3 +9,4 @@ def pure_fx(lst, item):
 
 print(pure_fx(my_list, 6)) # Not accessing the outside data from my_list
 print(my_list) #Maintains the original data
+

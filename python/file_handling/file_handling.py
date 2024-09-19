@@ -53,7 +53,7 @@ def read_file_into_list(file_name):
 print(read_file_into_list('C:/Users/nyaga/OneDrive/Desktop/Good Reads/Software_Development/META/htmlcss/python/file_handling/created.txt'))
 
 
-def write_first_line_to_file(file_contents):
+def write_first_line_to_file(file_contents, output_filename):
     """ Writes the first line of a string to a file.
 
     [IMPLEMENT ME]
@@ -70,7 +70,7 @@ def write_first_line_to_file(file_contents):
     """
     ### WRITE SOLUTION HERE
 
-    with open(file_contents, 'r') as file:
+    with open(file_contents, 'w') as file:
         data = file[0]
         return data
         

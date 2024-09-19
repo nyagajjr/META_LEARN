@@ -33,4 +33,4 @@ arr = [1, 2, 3, 4, 5]
 target = 8
 
 result = find_sum(arr, target)
-print(result)  # Output: (5, 2) or (2, 5)
+print(result)  
